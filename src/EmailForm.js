@@ -13,6 +13,7 @@ const EmailForm = () => {
     const handleSubmit = e => {
         e.preventDefault();
         setLoading(true);
+        setSubmitStatus(false);
         let scriptURL = "https://script.google.com/macros/s/AKfycbxvkx8Ftkjm0Mk3TZRZjyxIjAjiSG5y7IRk0wdD6jV-gJn9a6w/exec" 
         let formData = new FormData();    //formdata object
         formData.append('email', email);
