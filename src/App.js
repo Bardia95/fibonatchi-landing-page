@@ -1,28 +1,21 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React from 'react';
+import EmailForm from './EmailForm';
+import logo from './bloglogo.png';
 import './App.css';
 
-class App extends Component {
-  render() {
+
+const App = () => {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <div className="flex-container">
+            <div className="card">
+                <h1 className="title">Fibonatchi</h1>
+                <p className="description">Mental Models you'll remember forever</p>
+            </div>
+                <EmailForm />
+                <p className="made-with"><a className="twitter-link" href="https://twitter.com/thepericulum">@ThePericulum</a></p>
+        </div> 
+        
     );
-  }
 }
 
 export default App;

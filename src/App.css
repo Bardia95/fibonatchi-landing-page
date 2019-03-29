@@ -1,33 +1,73 @@
-.App {
+.flex-container {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  border-radius: 13px;
+  max-width: 55%;
+  margin-bottom: 21px;
+  text-align: center;
+
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+h1 {
+  font-weight: 400;
+  font-size: 55px;
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+h2 {
+  font-weight: 300;
+  font-size: 21px;
+  margin: 0px;
+  padding: 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+p {
+  font-weight: 100;
+  font-size: 21px;
+}
+
+.description {
+  margin-top: 0px;
+}
+
+.made-with {
+  font-size: 13px;
+  bottom: 15px;
+  margin: 0;
+  position: absolute;
+}
+
+.twitter-link:visited {
+  color: #1dcaff;
+  text-decoration: none;
+}
+
+.twitter-link {
+  color: #00aced;
+  text-decoration: none;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 200;
+
+}
+
+.twitter-link:hover {
+  color: #0084b4;
+  text-decoration: none;
 }
