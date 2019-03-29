@@ -1,7 +1,7 @@
 
 .input {
   max-width: 900px;
-  min-width: 377px;
+  min-width: 300px;
   margin-bottom: 13px;
 }
 .input-text
@@ -58,11 +58,11 @@
 
 
 .success {
-    background-color: #4cd964;
+    color: #4cd964;
 }
 
 .failure {
-    background-color: #ff3b30;
+    color: #ff3b30;
 }
 
 .sk-circle {
