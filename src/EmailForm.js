@@ -53,7 +53,7 @@ const EmailForm = () => {
                 <div class="sk-circle12 sk-child"></div>
             </div>
             }
-            <h2 className="form-title">Join the iOs Beta Waitlist</h2>
+            <h2 className="form-title">Join the iOS Beta Waitlist</h2>
             <form className="form">
                 <div className="input">
                     <input
